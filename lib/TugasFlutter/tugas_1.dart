@@ -15,7 +15,7 @@ class Tugas1Tugasflutter extends StatelessWidget {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
-        spacing: 25,
+        spacing: 0,
         children: [
           Text(
             "Muhammad Rizki Azmi",
@@ -31,14 +31,14 @@ class Tugas1Tugasflutter extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
 
             children: [
-              Icon(Icons.location_on, size: 20),
+              Icon(Icons.location_on, size: 20, color: Colors.green),
               Text("Depok", style: TextStyle(fontSize: 20)),
             ],
           ),
 
           Text(
             "aku adalah seorang engineer banget",
-            style: TextStyle(fontSize: 25),
+            style: TextStyle(fontSize: 18),
           ),
         ],
       ),
