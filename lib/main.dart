@@ -4,7 +4,9 @@ import 'package:ppkd_belajar/day_5/layouting.dart';
 import 'package:ppkd_belajar/day_5/scaffold.dart';
 import 'package:ppkd_belajar/day_5/styling.dart';
 import 'package:ppkd_belajar/day_5/container.dart';
+import 'package:ppkd_belajar/day_6/center.dart';
 import 'package:ppkd_belajar/day_6/container.dart';
+import 'package:ppkd_belajar/day_6/expanded.dart';
 import 'package:ppkd_belajar/day_6/image.dart';
 import 'package:ppkd_belajar/day_6/layouting.dart';
 
@@ -38,7 +40,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const ImageDay6(),
+      home: const ExpandedDay6(),
     );
   }
 }

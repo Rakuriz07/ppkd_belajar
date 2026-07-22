@@ -13,9 +13,10 @@ class ImageDay6 extends StatelessWidget {
       body: Column(
         children: [
           Container(
-            height: 200,
-            width: 200,
+            height: 500,
+            width: 400,
             decoration: BoxDecoration(
+              shape: BoxShape.circle,
               image: DecorationImage(
                 image: AssetImage("assets/images/adul.jpeg"),
               ),

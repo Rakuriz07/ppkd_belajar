@@ -107,8 +107,11 @@ class ContainerDay6 extends StatelessWidget {
           Container(
             margin: EdgeInsets.all(8),
             decoration: BoxDecoration(
-              backgroundBlendMode: BlendMode.color,
-              color: const Color.fromARGB(255, 119, 119, 41),
+              gradient: LinearGradient(
+                colors: [Colors.black, Colors.amberAccent,Colors.cyan]                
+                ),
+              // backgroundBlendMode: BlendMode.color,
+              // color: const Color.fromARGB(255, 119, 119, 41),
             ),
             height: 100,
             width: 400,
