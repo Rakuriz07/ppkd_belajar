@@ -32,13 +32,13 @@ class Tugas1Tugasflutter extends StatelessWidget {
 
             children: [
               Icon(Icons.location_on, size: 20, color: Colors.green),
-              Text("Depok", style: TextStyle(fontSize: 20)),
+              Text("Jakarta", style: TextStyle(fontSize: 50)),
             ],
           ),
 
           Text(
             "aku adalah seorang engineer banget",
-            style: TextStyle(fontSize: 18),
+            style: TextStyle(fontSize: 50),
           ),
         ],
       ),
