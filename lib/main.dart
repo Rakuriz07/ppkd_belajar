@@ -3,6 +3,10 @@ import 'package:ppkd_belajar/TugasFlutter/tugas_1.dart';
 import 'package:ppkd_belajar/day_5/layouting.dart';
 import 'package:ppkd_belajar/day_5/scaffold.dart';
 import 'package:ppkd_belajar/day_5/styling.dart';
+import 'package:ppkd_belajar/day_5/container.dart';
+import 'package:ppkd_belajar/day_6/container.dart';
+import 'package:ppkd_belajar/day_6/image.dart';
+import 'package:ppkd_belajar/day_6/layouting.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +38,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Tugas1Tugasflutter(),
+      home: const ImageDay6(),
     );
   }
 }
