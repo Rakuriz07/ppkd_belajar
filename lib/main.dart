@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:ppkd_belajar/Day_8/gridview.dart';
+import 'package:ppkd_belajar/Day_8/singlescroll.dart';
+import 'package:ppkd_belajar/Day_8/stack.dart';
+import 'package:ppkd_belajar/Day_8/textfield.dart';
 import 'package:ppkd_belajar/TugasFlutter/tugas2.dart';
 import 'package:ppkd_belajar/TugasFlutter/tugas_1.dart';
+import 'package:ppkd_belajar/TugasFlutter/tugas_3.dart';
 import 'package:ppkd_belajar/Tugas_7/tugas2.dart';
 import 'package:ppkd_belajar/day_5/layouting.dart';
 import 'package:ppkd_belajar/day_5/scaffold.dart';
@@ -42,7 +47,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: Tugas2Tugas7(),
+      home: Tugas3Tugasflutter(),
     );
   }
 }

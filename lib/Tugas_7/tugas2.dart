@@ -7,7 +7,7 @@ class Tugas2Tugas7 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Detail Toko"),
+        title: Text("Detail Toko", ),
 
         backgroundColor: Color(0xffA4B885),
         centerTitle: true,
